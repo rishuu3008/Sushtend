@@ -34,6 +34,7 @@ transcript = st.text_area("Paste customer call transcript here:", height=200)
 if st.button("Analyze"):
     if transcript.strip():
 
+        # Setting up the chains.
         summary_chain = summary_prompt | llm
         summary = summary_chain.invoke({"transcript": transcript}).content
 
