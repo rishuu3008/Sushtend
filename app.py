@@ -17,7 +17,7 @@ llm = ChatGroq(model = "openai/gpt-oss-120b")
 # Setting up the prompt for the chains.
 summary_prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a helpful assistant that summarizes customer support calls."),
-    ("user", "Summarize this call sentences:\n\n{transcript}")
+    ("user", "Summarize this call conversation in 2-3 sentences:\n\n{transcript}")
 ])
 
 sentiment_prompt = ChatPromptTemplate.from_messages([

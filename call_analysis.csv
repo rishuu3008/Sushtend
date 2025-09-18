@@ -1,3 +1,2 @@
 Transcript,Summary,Sentiment
-"Hi, I was trying to book a slot yesterday but the payment failed…","The customer called because they attempted to book a slot yesterday, but the payment did not go through. They explained the failure and asked for assistance in completing the reservation. The agent gathered the necessary details (e.g., booking date, payment method) and began troubleshooting the payment issue to resolve it.",Negative
-"Hi, I was trying to book a slot yesterday but the payment failed…","**Summary:** The customer attempted to book a slot yesterday, but the payment did not go through.",Negative
+"Hi, I was trying to book a slot yesterday but the payment failed","The caller explained that they attempted to book a slot yesterday, but the payment did not go through. They are seeking help to resolve the failed transaction and complete the booking.",Negative
